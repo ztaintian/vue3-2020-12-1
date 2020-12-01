@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 console.log('process.env.BASE_URL', process.env.BASE_URL)
 const routes = [
 {
-  path: '/about',
+  path: '/',
   name: 'About',
   // route level code-splitting
   // this generates a separate chunk (about.[hash].js) for this route
